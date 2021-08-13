@@ -130,7 +130,6 @@ nav ul li a:hover:after{
     z-index: 999;
 }
 .right img{
-	width: 100%;
 	width: 500px;
 	transition: 0.5s ease-in-out;
 }
@@ -171,4 +170,9 @@ nav ul li a:hover:after{
 	width: 60px;
 	height: 60px;
 	filter: saturate(150%) contrast(120%) hue-rotate(10deg) drop-shadow(1px 20px 10px rgba(0,0,0, 0.3));
+}
+
+.fruit-control img:active{
+	transform: translateY(10px);
+	transition: 0.2s;
 }
