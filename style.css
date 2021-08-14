@@ -16,7 +16,7 @@ a{
 }
 
 body{
-	height: 150vh;
+	height: 100%;
 }
 .hero{
 	width: 100%;
@@ -175,4 +175,48 @@ nav ul li a:hover:after{
 .fruit-control img:active{
 	transform: translateY(10px);
 	transition: 0.2s;
+}
+
+.main-container{
+	height: 100%;
+	width: 100%;
+	background-image: url("./img/justs_bg.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	overflow: hidden;
+}
+
+.service-info{
+	height: 100%;
+	width: 100%;
+	padding: 300px 100px;
+
+}
+
+.service-info ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.service-info li{
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	color: var(--main-color);
+}
+
+.service-info li i{
+	border: 2px solid var(--main-color);
+	padding: 5px;
+	border-radius: 50%;
+	font-size: 25px;
+	margin: 5px;
+}
+
+.service-info li h3{
+	font-size: 25px;
+	margin: 5px;
 }
