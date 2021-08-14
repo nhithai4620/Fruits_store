@@ -36,33 +36,37 @@ body{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-nav{
+.hero nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 30px 100px;
 }
-.logo{
-	font-size: 24px;
+.hero .logo_name{
+	font-size: 25px;
 	font-weight: 800;
 	letter-spacing: 1px;
 	color: var(--main-color);
 	z-index: 1;
 }
-nav ul{
+
+.hero .logo_name:hover{
+	text-decoration: none;
+}
+.hero nav ul{
 	z-index: 999;
 }
-nav ul li{
+.hero nav ul li{
 	list-style: none;
 	display: inline-block;
 	padding: 10px 20px;
 }
-nav ul li a{
+.hero nav ul li a{
 	color: #fff;
 	position: relative;
 	padding: 5px 0;
 }
-nav ul li a:after{
+.hero nav ul li a:after{
 	content: "";
 	position: absolute;
 	left: 0;
@@ -72,10 +76,10 @@ nav ul li a:after{
 	transition: .3s;
 	bottom:0;
 }
-nav ul li a:hover:after{
+.hero nav ul li a:hover:after{
 	width: 100%;
 }
-.btn{
+.hero .btn{
 	background: #fff;
 	color: var(--main-color);
 	font-size: 17px;
@@ -86,11 +90,11 @@ nav ul li a:hover:after{
 	transition: all 0.3s ease-in-out;
 	border: 1px solid #fff;
 }
-.btn:hover{
+.hero .btn:hover{
 	background: var(--main-color);
 	color: #fff;
 }
-.bg{
+.hero .bg{
 	background: var(--main-color);
 	position: absolute;
 	top: 0;
@@ -100,30 +104,30 @@ nav ul li a:hover:after{
 	clip-path: polygon(52% 0, 100% 0%, 100% 100%, 68% 100%);
 	transition: 0.5s;
 }
-.content{
+.hero .content{
 	position: absolute;
 	top: 30%;
 	left: 8%;
 }
-.content span{
+.hero .content span{
 	color: var(--main-color);
 	font-size: 70px;
 	font-weight: 600;
 	line-height: 1;
 }
-.content p{
+.hero .content p{
 	color: #b6b6b6;
 	font-size: 18px;
 	width: 45%;
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
-.btn2{
+.hero .btn2{
 	background: var(--main-color);
 	color: #fff;
 	border: 0;
 }
-.right{
+.hero .right{
 	width: 38%;
 	position: absolute;
 	right: 15%;
@@ -133,24 +137,24 @@ nav ul li a:hover:after{
 	width: 500px;
 	transition: 0.5s ease-in-out;
 }
-.icon{
+.hero .icon{
 	position: absolute;
 	right: 86px;
 	bottom: 7%;
 }
-.icon a{
+.hero .icon a{
 	padding: 10px;
 	font-size: 22px;
 	color: #2f2f2f;
 	transform: scale(.8);
 	cursor: pointer;
 }
-.icon a:hover i{ 
+.hero .icon a:hover i{ 
    transform: scale(1.5);
    transition: all 0.3s ease-in-out;
 }
 
-.fruit-control{
+.hero .fruit-control{
 	display: flex;
     position: absolute;
     left: 50%;
@@ -159,20 +163,20 @@ nav ul li a:hover:after{
     z-index: 98;
 }
 
-.fruit-control-item {
+.hero .fruit-control-item {
     --size: 80px;
     width: var(--size);
     height: var(--size);
     cursor: pointer;
     border-radius: 50%;
 }
-.fruit-control img{
+.hero .fruit-control img{
 	width: 60px;
 	height: 60px;
 	filter: saturate(150%) contrast(120%) hue-rotate(10deg) drop-shadow(1px 20px 10px rgba(0,0,0, 0.3));
 }
 
-.fruit-control img:active{
+.hero .fruit-control img:active{
 	transform: translateY(10px);
 	transition: 0.2s;
 }
@@ -310,4 +314,30 @@ nav ul li a:hover:after{
 	opacity:0.3;
 	font-size:13px;
 	margin-bottom:0;
+}
+
+.container-fluid{
+	padding-bottom: 70px;
+}
+
+.slider-text{
+	width: 100%;
+	padding: 50px;
+}
+
+.slider-text p{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	color: #585858;
+}
+
+.slider-text h3{
+	text-align: center;
+	color: var(--main-color);
+	font-size: 28px;
+}
+
+.row{
+	padding: 60px;
 }
