@@ -185,6 +185,7 @@ nav ul li a:hover:after{
     background-repeat: no-repeat;
     background-size: cover;
 	overflow: hidden;
+	background-attachment: fixed;
 }
 
 .service-info{
