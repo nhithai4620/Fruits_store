@@ -338,6 +338,25 @@ body{
 	font-size: 28px;
 }
 
-.row{
+.container-fluid .row{
 	padding: 60px;
+	
 }
+
+
+
+#slider-control .left i{
+	width: 100%;
+	text-align: left;
+	margin-top: 70%;
+	font-size: 35px;
+}
+
+#slider-control .right i{
+	width: 100%;
+	text-align: right;
+	margin-top: 70%;
+	font-size: 35px;
+}
+
+
