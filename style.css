@@ -359,8 +359,28 @@ body{
 	font-size: 35px;
 }
 
-.container-fluid .row .item img{
+.item-container{
+	width: 100%;
+}
+
+.item-container .img-container{
 	height: 250px;
+	width: 100%;
+	background: red;
+	overflow: hidden;
+}
+
+.item-container img{
+	transition: transform 2s ease;
+	width: 100%;
+	height: 100%;
+}
+
+.item-container img:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+	
 }
 
 .btn-add{
@@ -380,6 +400,11 @@ body{
 	transition: 0.5s;
 	border: 2px solid var(--main-color);
 	margin: 0px;
+}
+
+.btn-add:active{
+	transform: translateY(15px);
+	border: none;
 }
 
 
