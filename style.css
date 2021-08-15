@@ -359,4 +359,27 @@ body{
 	font-size: 35px;
 }
 
+.container-fluid .row .item img{
+	height: 250px;
+}
+
+.btn-add{
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	background: var(--main-color);
+	border-radius: 5px;
+	border: none;
+	margin: 2px;
+}
+
+.btn-add:hover{
+	background: #fff;
+	color: var(--main-color);
+	transition: 0.5s;
+	border: 2px solid var(--main-color);
+	margin: 0px;
+}
+
 
