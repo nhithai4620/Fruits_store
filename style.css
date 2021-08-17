@@ -544,33 +544,16 @@ button:focus{
 
 /* Products css */
 
-.products{
+.product-container{
 	height: 14vh;
 	background-image: url("./img/product-header.png");
 }
 
-.products .logo_name{
+.product-container .logo_name{
 	color: #fff;
 }
 
 
-.products .hero-overlay{
+.product .hero-overlay{
 	background-color: rgba(0, 0, 0, 0.1);
-}
-
-.product-container{
-	width: 100%;
-	height: 100vh;
-	background: wheat;
-	padding: 40px;
-}
-
-.product-main{
-	width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-	margin: 0 auto;
-	height: 80vh;
-	background: yellow;
 }
