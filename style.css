@@ -540,3 +540,20 @@ button:focus{
 .img-box:hover .man-img{
     left: 54%;
 }
+
+
+/* Products css */
+
+.products{
+	height: 14vh;
+	background-image: url("./img/product-header.png");
+}
+
+.products .logo_name{
+	color: #fff;
+}
+
+
+.products .hero-overlay{
+	background-color: rgba(0, 0, 0, 0.2);
+}

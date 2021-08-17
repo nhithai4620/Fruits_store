@@ -7,12 +7,15 @@ const BackgroundLayout = document.querySelector(".hero");
 const SellContent = document.querySelector(".sell-content");
 const SellLogan = document.querySelector(".sell-logan");
 const BackImg = document.querySelector(".back-img");
+const ProductHeader = document.querySelector(".products");
 const r = document.querySelector(':root');
 
 AppleControl.addEventListener('click', () =>{AppleFunction()});
 OrangeControl.addEventListener('click', () =>{OrangeFunction()});
 BananaControl.addEventListener('click', () =>{BananaFunction()});
 StrawControl.addEventListener('click', () =>{StrawFunction()});
+
+var ProductHeaderColor  = '#96e001';
 
 const AppleFunction = () =>{
     Fruit.src = "./img/apple-slice.png";
@@ -70,6 +73,9 @@ $(document).ready(function(){
     }
     });
 });
+
+
+ProductHeader.style.background = ProductHeaderColor;
 
 
 
