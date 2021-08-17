@@ -555,5 +555,22 @@ button:focus{
 
 
 .products .hero-overlay{
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.product-container{
+	width: 100%;
+	height: 100vh;
+	background: wheat;
+	padding: 40px;
+}
+
+.product-main{
+	width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+	margin: 0 auto;
+	height: 80vh;
+	background: yellow;
 }
