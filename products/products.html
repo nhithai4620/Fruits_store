@@ -9,33 +9,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <!-- StyleSheet -->
+  <link rel="stylesheet" href="../style.css" />
   <link rel="stylesheet" href="./products.css" />
+ 
   <title>Shopping Cart Project</title>
 </head>
 
 <body>
   <!-- Navigation -->
-  <nav class="nav">
-    <div class="nav__center container">
-      <div class="nav__logo">
-        <h1>SHOPI<span>Q</span></h1>
-      </div>
-
-      <ul class="nav__list">
-        <a href="#" class="login">Login</a>
-        <div class="cart__icon">
-          <h2>cart</h2>
-          <span class="item__total">0</span>
-        </div>
-      </ul>
-
-      <div class="hamburger">
-        <svg>
-          <use xlink:href="./images/sprite.svg#icon-menu"></use>
-        </svg>
-      </div>
-    </div>
-  </nav>
+ <div class="hero">
+    <div class="hero-overlay">
+      <nav>
+        <a href="#" class="logo_name">Traidung</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./components/products.html">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <a href="#" class="btn">Add To Cart</a>
+        </ul>
+        <ul class="nav__list">
+          <div class="cart__icon">
+            <h2>cart</h2>
+            <span class="item__total">0</span>
+          </div>
+        </ul>
+    </nav>
+    </div> 
+ </div>
   <!-- Navigation -->
 
   <!-- Products -->
