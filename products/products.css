@@ -54,6 +54,16 @@ li {
   list-style: none;
 }
 
+.products-header {
+  height: 15vh;
+  background-image: url('./images/product-header.png');
+}
+
+.products-overlay{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
 .container {
   max-width: 114rem;
   margin: 0 auto;
@@ -85,18 +95,6 @@ li {
 
 .hamburger {
   display: none;
-}
-
-.nav__center {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-}
-
-.nav__logo {
-  font-size: 2rem;
-  color: var(--white);
 }
 
 .nav__logo span {
