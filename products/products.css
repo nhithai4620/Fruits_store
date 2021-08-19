@@ -50,6 +50,7 @@ img {
   max-height: 100%;
 }
 
+
 a {
   text-decoration: none;
 }
@@ -92,6 +93,10 @@ li {
 
 .product-banner h3{
   font-weight: 500s;
+}
+
+.products-header .logo_name{
+  color: #fff;
 }
 
 @media only screen and (max-width: 1200px) {
