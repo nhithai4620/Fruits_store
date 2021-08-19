@@ -122,22 +122,16 @@ class UI {
           </div>
           <div>
             <span class="increase" data-id=${id}>
-              <svg>
-                <use xlink:href="./images/sprite.svg#icon-angle-up"></use>
-              </svg>
+              <i class="fas fa-angle-up"></i>
             </span>
             <p class="item__amount">1</p>
             <span class="decrease" data-id=${id}>
-              <svg>
-                <use xlink:href="./images/sprite.svg#icon-angle-down"></use>
-              </svg>
+              <i class="fas fa-angle-down"></i>
             </span>
           </div>
 
             <span class="remove__item" data-id=${id}>
-              <svg>
-                <use xlink:href="./images/sprite.svg#icon-trash"></use>
-              </svg>
+              <i class="fas fa-trash"></i>
             </span>
 
         </div>`;

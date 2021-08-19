@@ -13,6 +13,11 @@
 
 /* ========= Reset ========= */
 
+:root{
+	--main-color: #bfbdbb;
+}
+
+
 *,
 *::before,
 *::after {
@@ -55,7 +60,7 @@ li {
 }
 
 .products-header {
-  height: 15vh;
+  height: 13vh;
   background-image: url('./images/product-header.png');
 }
 
@@ -63,11 +68,19 @@ li {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+.fa-shopping-cart{
+  font-size: 30px;
+  color: #fff;
+}
 
 .container {
   max-width: 114rem;
   margin: 0 auto;
   padding: 0 1.6rem;
+}
+
+.image__container img{
+  height: 400px;
 }
 
 @media only screen and (max-width: 1200px) {
