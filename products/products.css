@@ -83,6 +83,17 @@ li {
   height: 400px;
 }
 
+.product-banner{
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  letter-spacing: 2px;
+}
+
+.product-banner h3{
+  font-weight: 500s;
+}
+
 @media only screen and (max-width: 1200px) {
   .container {
     padding: 0 3rem;
@@ -168,7 +179,7 @@ li {
 }
 
 .products {
-  padding: 15rem 0;
+  padding: 5rem 0;
 }
 
 .product__center {
