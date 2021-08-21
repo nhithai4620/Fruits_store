@@ -9,7 +9,6 @@ const clearCartBtn = document.querySelector(".clear__cart");
 const itemTotals = document.querySelector(".item__total");
 
 let cart = [];
-
 let buttonDOM = [];
 
 class UI {
@@ -51,7 +50,6 @@ class UI {
       </div>
       <!-- End of Single Product -->`;
     });
-
     productDOM.innerHTML = results;
   }
 
