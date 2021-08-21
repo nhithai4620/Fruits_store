@@ -42,7 +42,7 @@ class UI {
           <div class="bottom">
             <div class="btn__group">
               <button class="btn addToCart" data-id= ${id} >Add to Cart</button>
-              <button class="btn view">View</button>
+              <button class="btn viewBtn">View</button>
             </div>
             <div class="price">$${price}</div>
           </div>
@@ -51,6 +51,19 @@ class UI {
       <!-- End of Single Product -->`;
     });
     productDOM.innerHTML = results;
+  }
+
+  viewButton() {
+    const buttons = [...document.querySelectorAll(".viewBtn")];
+    buttonDOM = buttons;
+    buttons.forEach(button => {
+      const id = button.dataset.id;
+
+      button.addEventListener("click", e => {
+        e.preventDefault();
+        alert("HI");
+      });
+    });
   }
 
   getButtons() {
@@ -258,5 +271,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   ui.displayProducts(products);
   Storage.saveProduct(products);
   ui.getButtons();
+  ui.viewButton();
   ui.cartLogic();
 });
