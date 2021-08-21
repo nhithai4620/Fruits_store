@@ -1,8 +1,10 @@
 const productDOM = document.querySelector(".product__center");
 const cartDOM = document.querySelector(".cart");
+const itemDOM = document.querySelector(".item");
 const cartContent = document.querySelector(".cart__centent");
 const openCart = document.querySelector(".cart__icon");
 const closeCart = document.querySelector(".close__cart");
+const closeItem = document.querySelector(".close__item");
 const overlay = document.querySelector(".cart__overlay");
 const cartTotal = document.querySelector(".cart__total");
 const clearCartBtn = document.querySelector(".clear__cart");
@@ -61,7 +63,7 @@ class UI {
 
       button.addEventListener("click", e => {
         e.preventDefault();
-        alert("HI");
+        itemDOM.classList.add("show");
       });
     });
   }
@@ -149,6 +151,10 @@ class UI {
     overlay.classList.remove("show");
   }
 
+  close() {
+    itemDOM.classList.remove("show");
+  }
+
   setAPP() {
     cart = Storage.getCart();
     this.setItemValues(cart);
@@ -156,6 +162,7 @@ class UI {
 
     openCart.addEventListener("click", this.show);
     closeCart.addEventListener("click", this.hide);
+    closeItem.addEventListener("click",this.close);
   }
 
   populate(cart) {
@@ -270,7 +277,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const products = await productList.getProducts();
   ui.displayProducts(products);
   Storage.saveProduct(products);
-  ui.getButtons();
   ui.viewButton();
+  ui.getButtons();
   ui.cartLogic();
 });
