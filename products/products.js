@@ -25,29 +25,19 @@ class UI {
           <h1>${title}</h1>
           <div class="rating">
             <span>
-              <svg>
-                <use xlink:href="./images/sprite.svg#icon-star-full"></use>
-              </svg>
+            <i class="fas fa-star"></i>
             </span>
             <span>
-              <svg>
-                <use xlink:href="./images/sprite.svg#icon-star-full"></use>
-              </svg>
+            <i class="fas fa-star"></i>
             </span>
             <span>
-              <svg>
-                <use xlink:href="./images/sprite.svg#icon-star-full"></use>
-              </svg>
+            <i class="fas fa-star"></i>
             </span>
             <span>
-              <svg>
-                <use xlink:href="./images/sprite.svg#icon-star-full"></use>
-              </svg>
+            <i class="fas fa-star"></i>
             </span>
             <span>
-              <svg>
-                <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
-              </svg>
+            <i class="fas fa-star"></i>
             </span>
           </div>
           <div class="bottom">
