@@ -295,7 +295,7 @@ li {
   z-index: 2;
 }
 
-.item {
+.items {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -310,7 +310,7 @@ li {
   transition: all 300ms ease-in-out;
 }
 
-.item.show {
+.items.show {
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
   visibility: visible;

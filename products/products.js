@@ -1,7 +1,8 @@
 const productDOM = document.querySelector(".product__center");
 const cartDOM = document.querySelector(".cart");
-const itemDOM = document.querySelector(".item");
+const itemDOM = document.querySelector(".items");
 const cartContent = document.querySelector(".cart__centent");
+const itemContent = document.querySelector(".item__centent");
 const openCart = document.querySelector(".cart__icon");
 const closeCart = document.querySelector(".close__cart");
 const closeItem = document.querySelector(".close__item");
@@ -66,6 +67,13 @@ class UI {
         e.preventDefault();
         itemDOM.classList.add("show");
         itemOverlay.classList.add("show");
+
+        const div = document.createElement("div");
+
+        div.classList.add("product_details");
+
+        div.innerHTML = `<h1>Hjknsdfsdfndskl</h1>`;
+        itemContent.innerHTML = div.innerHTML;
       });
     });
   }
