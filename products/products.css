@@ -304,7 +304,6 @@ li {
   height: 80%;
   padding: 1.6rem;
   z-index: 3;
-  overflow-y: scroll;
   background-color: var(--grey2);
   opacity: 0;
   visibility: hidden;

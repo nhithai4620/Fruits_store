@@ -6,6 +6,7 @@ const openCart = document.querySelector(".cart__icon");
 const closeCart = document.querySelector(".close__cart");
 const closeItem = document.querySelector(".close__item");
 const overlay = document.querySelector(".cart__overlay");
+const itemOverlay = document.querySelector(".item__overlay");
 const cartTotal = document.querySelector(".cart__total");
 const clearCartBtn = document.querySelector(".clear__cart");
 const itemTotals = document.querySelector(".item__total");
@@ -64,6 +65,7 @@ class UI {
       button.addEventListener("click", e => {
         e.preventDefault();
         itemDOM.classList.add("show");
+        itemOverlay.classList.add("show");
       });
     });
   }
@@ -153,6 +155,7 @@ class UI {
 
   close() {
     itemDOM.classList.remove("show");
+    itemOverlay.classList.remove("show");
   }
 
   setAPP() {
