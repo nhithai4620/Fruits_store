@@ -3,79 +3,79 @@
     "items": [{
             "id": 1,
             "title": "Apple",
-            "price": 135,
+            "price": 12,
             "image": "./images/product-1.png"
         },
         {
             "id": 2,
             "title": "Banana",
-            "price": 950,
+            "price": 4,
             "image": "./images/product-2.png"
         },
         {
             "id": 3,
             "title": "Strawberries",
-            "price": 750,
+            "price": 16,
             "image": "./images/product-3.png"
         },
         {
             "id": 4,
             "title": "Watermelon",
-            "price": 999,
+            "price": 5,
             "image": "./images/product-4.png"
         },
         {
             "id": 5,
             "title": "Orange",
-            "price": 250,
+            "price": 7,
             "image": "./images/product-5.png"
 
         },
         {
             "id": 6,
             "title": "Grape",
-            "price": 850,
+            "price": 20,
             "image": "./images/product-6.png"
 
         },
         {
             "id": 7,
             "title": "Durian",
-            "price": 600,
+            "price": 12,
             "image": "./images/product-7.png"
         },
         {
             "id": 8,
             "title": "Blue berries",
-            "price": 350,
+            "price": 23,
             "image": "./images/product-8.png"
         },
         {
             "id": 9,
             "title": "Melon",
-            "price": 799,
+            "price": 9,
             "image": "./images/product-9.png"
         },
         {
             "id": 10,
             "title": "Dragonfruit",
-            "price": 150,
+            "price": 3,
             "image": "./images/product-10.png"
         },
         {
             "id": 11,
             "title": "Avocado",
-            "price": 650,
+            "price": 6,
             "image": "./images/product-11.png"
         },
         {
             "id": 12,
             "title": "Peach",
-            "price": 650,
+            "price": 10,
             "image": "./images/product-12.png"
         },
         {
-            "id": 13,
+            "id": 3,
             "title": "Guava",
             "price": 150,
             "image": "./images/product-13.png"
@@ -83,20 +83,20 @@
         {
             "id": 14,
             "title": "Kiwi",
-            "price": 650,
+            "price": 17,
             "image": "./images/product-14.png"
         },
         {
             "id": 15,
             "title": "Grapefruit",
-            "price": 650,
+            "price": 11,
             "image": "./images/product-15.png"
         }
         ,
         {
             "id": 16,
-            "title": "Coconut",
-            "price": 650,
+            "title": "Coconuts",
+            "price": 6,
             "image": "./images/product-16.png"
         }
     ]
