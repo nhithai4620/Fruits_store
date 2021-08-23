@@ -57,21 +57,21 @@ class UI {
     productDOM.innerHTML = results;
   }
 
-  viewButton() {
+  viewButton(products) {
     const buttons = [...document.querySelectorAll(".viewBtn")];
     buttonDOM = buttons;
     buttons.forEach(button => {
       const id = button.dataset.id;
-
+      
       button.addEventListener("click", e => {
         e.preventDefault();
         itemDOM.classList.add("show");
         itemOverlay.classList.add("show");
 
         const div = document.createElement("div");
-
+        
         div.classList.add("product_details");
-
+  
         div.innerHTML = `<div class="items_details_view">
         <section class="item_product">
         <div class="item_product_photo">
@@ -98,7 +98,7 @@ class UI {
 
             <div class="title">
                 <h1>
-                    Delicious apples
+                    511
                 </h1>
                 <span>
                     COD: 45999
@@ -347,7 +347,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const products = await productList.getProducts();
   ui.displayProducts(products);
   Storage.saveProduct(products);
-  ui.viewButton();
+  ui.viewButton(products);
   ui.getButtons();
   ui.cartLogic();
 });
