@@ -310,8 +310,8 @@ li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.5);
-  width: 60%;
-  height: 80%;
+  width: 70%;
+  height: 90%;
   padding: 1.6rem;
   z-index: 3;
   background-color: var(--grey2);
