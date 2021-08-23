@@ -77,7 +77,7 @@ class UI {
         <div class="item_product_photo">
             <div class="item_photo_container">
                 <div class="item_photo_main">
-                    <div class="controls">
+                    <div class="item_controls">
                         <i class="fa fa-share-alt"></i>
                         <i class="fa fa-heart"></i>
                     </div>

@@ -401,7 +401,7 @@ li {
   
 }
 
-.item__centent .photo_main .controls{
+.item__centent .item_photo_main .item_controls{
   display: flex;
   justify-content: space-between;
   padding: 0.8em;
@@ -530,7 +530,6 @@ li {
 }
 
 /* End view item */
-
 
 
 .close__cart {

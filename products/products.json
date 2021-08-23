@@ -4,100 +4,134 @@
             "id": 1,
             "title": "Apple",
             "price": 12,
-            "image": "./images/product-1.png"
+            "image": "./images/product-1.png",
+            "color1": "#9be010",
+            "color2": "#01e37f"
+        
         },
         {
             "id": 2,
             "title": "Banana",
             "price": 4,
-            "image": "./images/product-2.png"
+            "image": "./images/product-2.png",
+            "color1": "#e3cc01",
+            "color2": "#faf330"
+            
         },
         {
             "id": 3,
             "title": "Strawberries",
             "price": 16,
-            "image": "./images/product-3.png"
+            "image": "./images/product-3.png",
+            "color1": "#e3cc01",
+            "color2": "#faf330"
         },
         {
             "id": 4,
             "title": "Watermelon",
             "price": 5,
-            "image": "./images/product-4.png"
+            "image": "./images/product-4.png",
+            "color1": "#e3cc01",
+            "color2": "#faf330"
         },
         {
             "id": 5,
             "title": "Orange",
             "price": 7,
-            "image": "./images/product-5.png"
+            "image": "./images/product-5.png",
+            "color1": "#e3cc01",
+            "color2": "#faf330"
 
         },
         {
             "id": 6,
             "title": "Grape",
             "price": 20,
-            "image": "./images/product-6.png"
+            "image": "./images/product-6.png",
+            "color1": "#e3cc01",
+            "color2": "#faf330"
 
         },
         {
             "id": 7,
             "title": "Durian",
             "price": 12,
-            "image": "./images/product-7.png"
+            "image": "./images/product-7.png",
+            "color1": "#e3cc01",
+            "color2": "#faf330"
         },
         {
             "id": 8,
             "title": "Blue berries",
             "price": 23,
-            "image": "./images/product-8.png"
+            "image": "./images/product-8.png",
+            "color1": "#e3cc01",
+            "color2": "#faf330"
         },
         {
             "id": 9,
             "title": "Melon",
             "price": 9,
-            "image": "./images/product-9.png"
+            "image": "./images/product-9.png",
+            "color1": "#e3cc01",
+            "color2": "#faf330"
         },
         {
             "id": 10,
             "title": "Dragonfruit",
             "price": 3,
-            "image": "./images/product-10.png"
+            "image": "./images/product-10.png",
+            "color1": "#e3cc01",
+            "color2": "#faf330"
         },
         {
             "id": 11,
             "title": "Avocado",
             "price": 6,
-            "image": "./images/product-11.png"
+            "image": "./images/product-11.png",
+            "color1": "#e3cc01",
+            "color2": "#faf330"
         },
         {
             "id": 12,
             "title": "Peach",
             "price": 10,
-            "image": "./images/product-12.png"
+            "image": "./images/product-12.png",
+            "color1": "#e3cc01",
+            "color2": "#faf330"
         },
         {
             "id": 3,
             "title": "Guava",
             "price": 150,
-            "image": "./images/product-13.png"
+            "image": "./images/product-13.png",
+            "color1": "#e3cc01",
+            "color2": "#faf330"
         },
         {
             "id": 14,
             "title": "Kiwi",
             "price": 17,
-            "image": "./images/product-14.png"
+            "image": "./images/product-14.png",
+            "color1": "#e3cc01",
+            "color2": "#faf330"
         },
         {
             "id": 15,
             "title": "Grapefruit",
             "price": 11,
-            "image": "./images/product-15.png"
+            "image": "./images/product-15.png",
+            "color1": "#e3cc01",
+            "color2": "#faf330"
         }
         ,
         {
             "id": 16,
             "title": "Coconuts",
             "price": 6,
-            "image": "./images/product-16.png"
+            "image": "./images/product-16.png",
+            "color1": "#e3cc01",
+            "color2": "#faf330"
         }
     ]
 }
