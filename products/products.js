@@ -72,7 +72,66 @@ class UI {
 
         div.classList.add("product_details");
 
-        div.innerHTML = `<h1>Hjknsdfsdfndskl</h1>`;
+        div.innerHTML = `<div class="items_details_view">
+        <section class="item_product">
+        <div class="item_product_photo">
+            <div class="item_photo_container">
+                <div class="item_photo_main">
+                    <div class="controls">
+                        <i class="fa fa-share-alt"></i>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <img id="apple-img" src="./images/apple/apple-slice.png" alt="">
+                </div>
+                <div class="photo-ablum">
+                    <ul>
+                        <li><img src="./images/apple/green-apple2.png"></li>
+                        <li><img src="./images/apple/half-apple.png"></li>
+                        <li><img src="./images/apple/apple-flipped.png"></li>
+                        <li><img src="./images/apple/apple-top.png"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="product_info">
+
+            <div class="title">
+                <h1>
+                    Delicious apples
+                </h1>
+                <span>
+                    COD: 45999
+                </span>
+            </div>
+
+            <div class="price">
+                R$ <span>7.93</span>
+            </div>
+
+            <div class="variant">
+                <h3>SELECT A COLOR</h3>
+                <ul>
+                    <li  onclick="changeGreen()"><img  src="./images/apple/green-apple2 (1).png"></li>
+                    <li  onclick="changeYellow()"><img  src="./images/apple/yellow-apple.png"></li>
+                    <li  onclick="changeOrange()"><img src="./images/apple/orange-apple.png"></li>
+                    <li  onclick="changeRed()"><img src="./images/apple/red-apple.png"></li>
+                </ul>
+            </div>
+
+            <div class="description">
+                <h3>BENEFITS</h3>
+                <ul>
+                    <li>Apples are nutricious</li>
+                    <li>Apples may be good for weight loss</li>
+                    <li>Apples may be good for bone health</li>
+                    <li>They're linked to a lowest risk of diabletes</li>
+                </ul>
+            </div>
+
+            <button class="buy-btn">ADD TO CART</button>
+        </div>
+        </div>`;
         itemContent.innerHTML = div.innerHTML;
       });
     });
