@@ -57,7 +57,7 @@ class UI {
     productDOM.innerHTML = results;
   }
 
-  viewButton(products) {
+  viewButton() {
     const buttons = [...document.querySelectorAll(".viewBtn")];
     buttonDOM = buttons;
     buttons.forEach(button => {
@@ -84,7 +84,7 @@ class UI {
                         <i class="fa fa-share-alt"></i>
                         <i class="fa fa-heart"></i>
                     </div>
-                    <img id="apple-img" src="./images/apple/apple-slice.png" alt="">
+                    <img id="apple-img" src="${viewItem.image_details}" alt="">
                 </div>
                 <div class="photo-ablum">
                     <ul>
@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const products = await productList.getProducts();
   ui.displayProducts(products);
   Storage.saveProduct(products);
-  ui.viewButton(products);
+  ui.viewButton();
   ui.getButtons();
   ui.cartLogic();
 });
