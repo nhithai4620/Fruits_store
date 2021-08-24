@@ -43,7 +43,7 @@
             "title": "Orange",
             "price": 7,
             "image": "./images/product-5.png",
-            "color1": "#e37601",
+            "color1": "radial-gradient(#ebd4aa, #e09201)",
             "color2": "#faf330",
             "description": "<li>Oranges are nutricious</li><li>Oranges may be good for weight loss</li><li>Oranges may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
 
@@ -53,8 +53,8 @@
             "title": "Grape",
             "price": 20,
             "image": "./images/product-6.png",
-            "color1": "#e3cc01",
-            "color2": "#faf330",
+            "color1": "radial-gradient(#d383f8, #b81df0)",
+            "color2": "#9704b8",
             "description": "<li>Grape are nutricious</li><li>Grape may be good for weight loss</li><li>Grape may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
 
         },
