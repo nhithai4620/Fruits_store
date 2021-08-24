@@ -116,8 +116,6 @@ class UI {
                 <h3>SELECT A COLOR</h3>
                 <ul>
                     <li  onclick="changeGreen()"><img  src="./images/apple/green-apple2 (1).png"></li>
-                    <li  onclick="changeYellow()"><img  src="./images/apple/yellow-apple.png"></li>
-                    <li  onclick="changeOrange()"><img src="./images/apple/orange-apple.png"></li>
                     <li  onclick="changeRed()"><img src="./images/apple/red-apple.png"></li>
                 </ul>
             </div>
