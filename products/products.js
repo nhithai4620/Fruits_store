@@ -46,7 +46,7 @@ class UI {
           <div class="bottom">
             <div class="btn__group">
               <button class="btn addToCart" data-id= ${id} >Add to Cart</button>
-              <button class="btn viewBtn">View</button>
+              <button class="btn viewBtn" data-id= ${id}>View</button>
             </div>
             <div class="price">$${price}</div>
           </div>
@@ -62,9 +62,10 @@ class UI {
     buttonDOM = buttons;
     buttons.forEach(button => {
       const id = button.dataset.id;
-      
+   
       button.addEventListener("click", e => {
         e.preventDefault();
+        console.log(id);
         itemDOM.classList.add("show");
         itemOverlay.classList.add("show");
 
