@@ -17,7 +17,7 @@
             "image": "./images/product-2.png",
             "color1": "#e3cc01",
             "color2": "#faf330",
-            "description": "<li>Bananas are a rich source of carbs</li><li>Bananas are also a good source of other types of fiber</li><li> aiding your gut and promoting healthy blood sugar levels.</li>" 
+            "description": "<li>Bananas are a rich source of carbs</li><li>Bananas are also a good source of other types of fiber</li><li> Aiding your gut and promoting healthy blood sugar levels.</li>" 
             
         },
         {
@@ -27,7 +27,7 @@
             "image": "./images/product-3.png",
             "color1": "#e3cc01",
             "color2": "#faf330",
-            "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
+            "description": "<li>The tiny strawberry is packed with vitamin C, fiber, antioxidants, and more</li><li>These potent little packages protect your heart</li><li>Lower your blood pressure, and guard against cancer</li>" 
         },
         {
             "id": 4,
