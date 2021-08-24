@@ -36,7 +36,7 @@
             "image": "./images/product-4.png",
             "color1": "#e3cc01",
             "color2": "#faf330",
-            "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
+            "description": "<li> is a sweet and refreshing low calorie summer snack</li><li> useful for staying hydrated in the summer</li><li> has high water content and also provides some fiber</li>" 
         },
         {
             "id": 5,
@@ -45,7 +45,7 @@
             "image": "./images/product-5.png",
             "color1": "#e3cc01",
             "color2": "#faf330",
-            "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
+            "description": "<li>Oranges are nutricious</li><li>Oranges may be good for weight loss</li><li>Oranges may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
 
         },
         {
@@ -55,7 +55,7 @@
             "image": "./images/product-6.png",
             "color1": "#e3cc01",
             "color2": "#faf330",
-            "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
+            "description": "<li>Grape are nutricious</li><li>Grape may be good for weight loss</li><li>Grape may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
 
         },
         {
@@ -65,7 +65,7 @@
             "image": "./images/product-7.png",
             "color1": "#e3cc01",
             "color2": "#faf330",
-            "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
+            "description": "<li>Bananas are a rich source of carbs</li><li>Bananas are also a good source of other types of fiber</li><li> Aiding your gut and promoting healthy blood sugar levels.</li>" 
         },
         {
             "id": 8,
@@ -74,7 +74,7 @@
             "image": "./images/product-8.png",
             "color1": "#e3cc01",
             "color2": "#faf330",
-            "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
+            "description": "<li>Blue berries are nutricious</li><li>Blue berries may be good for weight loss</li><li>Blue berries may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
         },
         {
             "id": 9,
@@ -83,7 +83,7 @@
             "image": "./images/product-9.png",
             "color1": "#e3cc01",
             "color2": "#faf330",
-            "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
+            "description": "<li> is a sweet and refreshing low calorie summer snack</li><li> useful for staying hydrated in the summer</li><li> has high water content and also provides some fiber</li>" 
         },
         {
             "id": 10,
@@ -92,7 +92,7 @@
             "image": "./images/product-10.png",
             "color1": "#e3cc01",
             "color2": "#faf330",
-            "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
+            "description": "<li>Dragonfruit are a rich source of carbs</li><li>Dragonfruit are also a good source of other types of fiber</li><li> Aiding your gut and promoting healthy blood sugar levels.</li>" 
         },
         {
             "id": 11,
@@ -101,7 +101,7 @@
             "image": "./images/product-11.png",
             "color1": "#e3cc01",
             "color2": "#faf330",
-            "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
+            "description": "<li>Avocado are nutricious</li><li>Avocado may be good for weight loss</li><li>Avocado may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
         },
         {
             "id": 12,
@@ -110,7 +110,7 @@
             "image": "./images/product-12.png",
             "color1": "#e3cc01",
             "color2": "#faf330",
-            "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
+            "description": "<li>Peach are a rich source of carbs</li><li>Peach are also a good source of other types of fiber</li><li> Aiding your gut and promoting healthy blood sugar levels.</li>" 
         },
         {
             "id": 13,
@@ -119,7 +119,7 @@
             "image": "./images/product-13.png",
             "color1": "#e3cc01",
             "color2": "#faf330",
-            "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
+            "description": "<li> is a sweet and refreshing low calorie summer snack</li><li> useful for staying hydrated in the summer</li><li> has high water content and also provides some fiber</li>" 
         },
         {
             "id": 14,
@@ -137,7 +137,7 @@
             "image": "./images/product-15.png",
             "color1": "#e3cc01",
             "color2": "#faf330",
-            "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
+            "description": "<li> is a sweet and refreshing low calorie summer snack</li><li> useful for staying hydrated in the summer</li><li> has high water content and also provides some fiber</li>" 
         }
         ,
         {
