@@ -127,12 +127,16 @@ class UI {
                 </ul>
             </div>
 
-            <button class="buy-btn addToCart" data-id= ${viewItem.id}>ADD TO CART</button>
+            <button class="buy-btn">ADD TO CART</button>
         </div>
         </div>`;
         itemContent.innerHTML = div.innerHTML;
       });
     });
+  }
+
+  addCartButton(){
+  
   }
 
   getButtons() {
@@ -346,6 +350,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   ui.displayProducts(products);
   Storage.saveProduct(products);
   ui.viewButton();
+  ui.addCartButton();
   ui.getButtons();
   ui.cartLogic();
 });
