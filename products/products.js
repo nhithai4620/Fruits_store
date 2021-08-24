@@ -66,6 +66,8 @@ class UI {
       button.addEventListener("click", e => {
         e.preventDefault();
         console.log(id);
+        const viewItem = { ...Storage.getProduct(id), amount: 1 };
+        console.log(viewItem);
         itemDOM.classList.add("show");
         itemOverlay.classList.add("show");
 
