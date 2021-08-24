@@ -128,7 +128,7 @@
             "image": "./images/product-14.png",
             "color1": "#e3cc01",
             "color2": "#faf330",
-            "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
+            "description": "<li>Kiwi are nutricious</li><li>Kiwi may be good for weight loss</li><li>Kiwi may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
         },
         {
             "id": 15,
@@ -147,7 +147,7 @@
             "image": "./images/product-16.png",
             "color1": "#e3cc01",
             "color2": "#faf330",
-            "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
+            "description": "<li>Coconuts are nutricious</li><li>Coconuts may be good for weight loss</li><li>Coconuts may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
         }
     ]
 }
