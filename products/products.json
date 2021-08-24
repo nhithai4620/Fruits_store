@@ -63,7 +63,7 @@
             "title": "Durian",
             "price": 12,
             "image": "./images/product-7.png",
-            "color1": "#e3cc01",
+            "color1":  "radial-gradient(#eaebaa, #d5e001)",
             "color2": "#faf330",
             "description": "<li>Durian are a rich source of carbs</li><li>Durian are also a good source of other types of fiber</li><li> Aiding your gut and promoting healthy blood sugar levels.</li>" 
         },
@@ -72,8 +72,8 @@
             "title": "Blue berries",
             "price": 23,
             "image": "./images/product-8.png",
-            "color1": "#e3cc01",
-            "color2": "#faf330",
+            "color1": "radial-gradient(#5e8ce9, #0b55e9)",
+            "color2": "#5572cc",
             "description": "<li>Blue berries are nutricious</li><li>Blue berries may be good for weight loss</li><li>Blue berries may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
         },
         {
@@ -81,8 +81,8 @@
             "title": "Melon",
             "price": 9,
             "image": "./images/product-9.png",
-            "color1": "#e3cc01",
-            "color2": "#faf330",
+            "color1": "radial-gradient(#ddebaa, #96e001)",
+            "color2": "#086021",
             "description": "<li> is a sweet and refreshing low calorie summer snack</li><li> useful for staying hydrated in the summer</li><li> has high water content and also provides some fiber</li>" 
         },
         {
@@ -90,8 +90,8 @@
             "title": "Dragonfruit",
             "price": 3,
             "image": "./images/product-10.png",
-            "color1": "#e3cc01",
-            "color2": "#faf330",
+            "color1": "radial-gradient(#f0b9b4, #f5623d)",
+            "color2": "#f12e1c",
             "description": "<li>Dragonfruit are a rich source of carbs</li><li>Dragonfruit are also a good source of other types of fiber</li><li> Aiding your gut and promoting healthy blood sugar levels.</li>" 
         },
         {
@@ -99,8 +99,8 @@
             "title": "Avocado",
             "price": 6,
             "image": "./images/product-11.png",
-            "color1": "#e3cc01",
-            "color2": "#faf330",
+            "color1": "radial-gradient(#ddebaa, #96e001)",
+            "color2": "#086021",
             "description": "<li>Avocado are nutricious</li><li>Avocado may be good for weight loss</li><li>Avocado may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
         },
         {
@@ -108,8 +108,8 @@
             "title": "Peach",
             "price": 10,
             "image": "./images/product-12.png",
-            "color1": "#e3cc01",
-            "color2": "#faf330",
+            "color1": "radial-gradient(#f16ebb, #e90bd3)",
+            "color2": "#e60cdb",
             "description": "<li>Peach are a rich source of carbs</li><li>Peach are also a good source of other types of fiber</li><li> Aiding your gut and promoting healthy blood sugar levels.</li>" 
         },
         {
@@ -117,8 +117,8 @@
             "title": "Guava",
             "price": 150,
             "image": "./images/product-13.png",
-            "color1": "#e3cc01",
-            "color2": "#faf330",
+            "color1": "radial-gradient(#ddebaa, #96e001)",
+            "color2": "#01e37f",
             "description": "<li> is a sweet and refreshing low calorie summer snack</li><li> useful for staying hydrated in the summer</li><li> has high water content and also provides some fiber</li>" 
         },
         {
@@ -126,8 +126,8 @@
             "title": "Kiwi",
             "price": 17,
             "image": "./images/product-14.png",
-            "color1": "#e3cc01",
-            "color2": "#faf330",
+            "color1": "radial-gradient(#ddebaa, #96e001)",
+            "color2": "#086021",
             "description": "<li>Kiwi are nutricious</li><li>Kiwi may be good for weight loss</li><li>Kiwi may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
         },
         {
@@ -135,8 +135,8 @@
             "title": "Grapefruit",
             "price": 11,
             "image": "./images/product-15.png",
-            "color1": "#e3cc01",
-            "color2": "#faf330",
+            "color1": "radial-gradient(#5e8ce9, #0b55e9)",
+            "color2": "#5572cc",
             "description": "<li> is a sweet and refreshing low calorie summer snack</li><li> useful for staying hydrated in the summer</li><li> has high water content and also provides some fiber</li>" 
         }
         ,
@@ -145,8 +145,8 @@
             "title": "Coconuts",
             "price": 6,
             "image": "./images/product-16.png",
-            "color1": "#e3cc01",
-            "color2": "#faf330",
+            "color1": " radial-gradient(#65382d, #3e2305ee)",
+            "color2": "#e66e0c",
             "description": "<li>Coconuts are nutricious</li><li>Coconuts may be good for weight loss</li><li>Coconuts may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
         }
     ]

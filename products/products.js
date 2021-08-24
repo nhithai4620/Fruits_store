@@ -75,11 +75,11 @@ class UI {
         
         div.classList.add("product_details");
   
-        div.innerHTML = `<div class="items_details_view">
+        div.innerHTML = `<div class="items_details_view" style="background-color: ${viewItem.color2}">
         <section class="item_product">
         <div class="item_product_photo">
             <div class="item_photo_container">
-                <div class="item_photo_main">
+                <div class="item_photo_main" style="background:${viewItem.color1}">
                     <div class="item_controls">
                         <i class="fa fa-share-alt"></i>
                         <i class="fa fa-heart"></i>
