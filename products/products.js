@@ -101,7 +101,7 @@ class UI {
 
             <div class="title">
                 <h1>
-                    511
+                    ${viewItem.title}
                 </h1>
                 <span>
                     COD: 45999
@@ -109,7 +109,7 @@ class UI {
             </div>
 
             <div class="price">
-                R$ <span>7.93</span>
+                $ <span>${viewItem.price}</span>
             </div>
 
             <div class="variant">
@@ -125,10 +125,7 @@ class UI {
             <div class="description">
                 <h3>BENEFITS</h3>
                 <ul>
-                    <li>Apples are nutricious</li>
-                    <li>Apples may be good for weight loss</li>
-                    <li>Apples may be good for bone health</li>
-                    <li>They're linked to a lowest risk of diabletes</li>
+                  ${viewItem.description}
                 </ul>
             </div>
 
