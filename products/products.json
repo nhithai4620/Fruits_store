@@ -5,17 +5,17 @@
             "title": "Apple",
             "price": 12,
             "image": "./images/product-1.png",
-            "color1": "#9be010",
+            "color1": "radial-gradient(#ddebaa, #96e001)",
             "color2": "#01e37f",
             "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
-            
+
         },
         {
             "id": 2,
             "title": "Banana",
             "price": 4,
             "image": "./images/product-2.png",
-            "color1": "#e3cc01",
+            "color1":  "radial-gradient(#eaebaa, #d5e001)",
             "color2": "#faf330",
             "description": "<li>Bananas are a rich source of carbs</li><li>Bananas are also a good source of other types of fiber</li><li> Aiding your gut and promoting healthy blood sugar levels.</li>" 
             
@@ -25,8 +25,8 @@
             "title": "Strawberries",
             "price": 16,
             "image": "./images/product-3.png",
-            "color1": "#e3cc01",
-            "color2": "#faf330",
+            "color1": "radial-gradient(#f0b9b4, #f5623d)",
+            "color2": "#f12e1c",
             "description": "<li>The tiny strawberry is packed with vitamin C, fiber, antioxidants, and more</li><li>These potent little packages protect your heart</li><li>Lower your blood pressure, and guard against cancer</li>" 
         },
         {
@@ -34,8 +34,8 @@
             "title": "Watermelon",
             "price": 5,
             "image": "./images/product-4.png",
-            "color1": "#e3cc01",
-            "color2": "#faf330",
+            "color1": "radial-gradient(#ddebaa, #96e001)",
+            "color2": "#1ba42f",
             "description": "<li> is a sweet and refreshing low calorie summer snack</li><li> useful for staying hydrated in the summer</li><li> has high water content and also provides some fiber</li>" 
         },
         {
@@ -43,7 +43,7 @@
             "title": "Orange",
             "price": 7,
             "image": "./images/product-5.png",
-            "color1": "#e3cc01",
+            "color1": "#e37601",
             "color2": "#faf330",
             "description": "<li>Oranges are nutricious</li><li>Oranges may be good for weight loss</li><li>Oranges may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>" 
 
