@@ -57,6 +57,12 @@ class UI {
     productDOM.innerHTML = results;
   }
 
+
+  buyBUtton(){
+
+  }
+
+
   viewButton() {
     const buttons = [...document.querySelectorAll(".viewBtn")];
     buttonDOM = buttons;
@@ -131,6 +137,27 @@ class UI {
         </div>
         </div>`;
         itemContent.innerHTML = div.innerHTML;
+        const buyButton = document.querySelector(".buy-btn");
+
+        buyButton.addEventListener("click", e=>{
+          e.preventDefault();
+          e.target.innerHTML = "In Cart";
+          e.target.disabled = true;
+  
+          // Get product from products
+          const cartItem = { ...Storage.getProduct(id), amount: 1 };
+  
+          // Add product to cart
+          cart = [...cart, cartItem];
+  
+          // save the cart in local storage
+          Storage.saveCart(cart);
+          // set cart values
+          this.setItemValues(cart);
+          // display the cart item
+          this.addCartItem(cartItem);
+          // show the cart
+        })
       });
     });
   }
