@@ -20,9 +20,9 @@ class UI {
     let results = "";
     products.forEach(({ title, price, image, id }) => {
       results += `<!-- Single Product -->
-      <div class="product">
+      <div class="product" >
         <div class="image__container">
-          <img src=${image} alt="" />
+          <img src=${image} alt="" id=${title} />
         </div>
         <div class="product__footer">
           <h1>${title}</h1>
