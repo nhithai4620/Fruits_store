@@ -14,7 +14,7 @@ const itemTotals = document.querySelector(".item__total");
 
 let cart = [];
 let buttonDOM = [];
-
+// set Ui 
 class UI {
   displayProducts(products) {
     let results = "";
@@ -123,7 +123,7 @@ class UI {
                 <ul>
                     <li  onclick="changeGreen()"><img  src="./images/apple/green-apple2 (1).png"></li>
                     <li  onclick="changeRed()"><img src="./images/apple/red-apple.png"></li>
-                </ul>
+                </ul>  
             </div>
 
             <div class="description">
