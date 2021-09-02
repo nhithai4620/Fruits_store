@@ -14,7 +14,7 @@ const itemTotals = document.querySelector(".item__total");
 
 let cart = [];
 let buttonDOM = [];
-// set Ui 
+// set Ui of website
 class UI {
   displayProducts(products) {
     let results = "";
