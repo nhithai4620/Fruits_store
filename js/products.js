@@ -94,10 +94,10 @@ class UI {
                 </div>
                 <div class="photo-ablum">
                     <ul>
-                        <li><img src="./images/apple/green-apple2.png"></li>
-                        <li><img src="./images/apple/half-apple.png"></li>
-                        <li><img src="./images/apple/apple-flipped.png"></li>
-                        <li><img src="./images/apple/apple-top.png"></li>
+                        <li><img src="../img/apple/green-apple2.png"></li>
+                        <li><img src="../img/apple/half-apple.png"></li>
+                        <li><img src="../img/apple/apple-flipped.png"></li>
+                        <li><img src="../img/apple/apple-top.png"></li>
                     </ul>
                 </div>
             </div>
@@ -121,8 +121,8 @@ class UI {
             <div class="variant">
                 <h3>SELECT A COLOR</h3>
                 <ul>
-                    <li  onclick="changeGreen()"><img  src="./images/apple/green-apple2 (1).png"></li>
-                    <li  onclick="changeRed()"><img src="./images/apple/red-apple.png"></li>
+                    <li  onclick="changeGreen()"><img  src="../img/apple/green-apple2 (1).png"></li>
+                    <li  onclick="changeRed()"><img src="../img/apple/red-apple.png"></li>
                 </ul>  
             </div>
 
@@ -336,7 +336,7 @@ class UI {
 class Products {
   async getProducts() {
     try {
-      const result = await fetch("products.json");
+      const result = await fetch("../products.json");
       const data = await result.json();
       const products = data.items;
       return products;
