@@ -55,6 +55,32 @@
             height: 500px;
             width: 100%;
         }
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #4f4f4f49;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {background-color: #959393}
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
     </style>
 </head>
 <body>
@@ -64,8 +90,15 @@
             <a href="#" class="logo_name">Traidung</a>
             <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./products.html">Products</a></li>
-                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                  <a href="./products.html" class="dropbtn">Products</a>
+                  <div class="dropdown-content">
+                    <a href="./products.html">All</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </li>
+                <li><a href="./about.html">About</a></li>
                 <li><a href="./contact.html">Contact</a></li>
                 <a href="#" class="btn">Add To Cart</a>
             </ul>
