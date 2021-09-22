@@ -1,6 +1,7 @@
 {
     "status": "success",
-    "items": [{
+    "items": [
+        {
             "id": 1,
             "title": "Apple",
             "price": 12,
