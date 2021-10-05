@@ -368,7 +368,6 @@ body{
 .item-container .img-container{
 	height: 250px;
 	width: 100%;
-	background: red;
 	overflow: hidden;
 }
 
@@ -382,7 +381,6 @@ body{
 	-ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); 
-	
 }
 
 .btn-add{
