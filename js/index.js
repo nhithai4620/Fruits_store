@@ -59,7 +59,9 @@ const StrawFunction = () =>{
 
 $(document).ready(function(){
 
-    $('#itemslider').carousel({ interval: 3000 });
+    $('#itemslider1').carousel({ interval: 3000 });
+    $('#itemslider2').carousel({ interval: 3000 });
+
     
     $('.carousel-showmanymoveone .item').each(function(){
     var itemToClone = $(this);
@@ -76,7 +78,14 @@ $(document).ready(function(){
     .appendTo($(this));
     }
     });
+
+
 });
+
+
+
+
+
 
 
 const sliderContainer = document.querySelector('.slider-container')
